@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "memory": "cpp",
+        "random": "cpp",
+        "system_error": "cpp",
+        "xutility": "cpp",
+        "vector": "cpp",
+        "list": "cpp",
+        "xstring": "cpp"
+    }
+}
