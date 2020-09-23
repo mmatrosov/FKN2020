@@ -1,6 +1,6 @@
-#include<algorithm>
-#include<iostream>
-#include<string>
+#include <algorithm>
+#include <iostream>
+#include <string>
 
 int main() {
     std::string s;
@@ -9,7 +9,7 @@ int main() {
     reverse(s.begin(), s.end());
     for (uint8_t j : s) {
         uint64_t i = j;
-        ans = (ans << 7) + (i % (1 << 7));
+        ans = (ans << 7) + (i % (1 << 7));  //
     }
     std::cout << ans;
 }

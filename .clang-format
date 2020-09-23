@@ -5,3 +5,4 @@ IndentWidth: 4
 AllowShortBlocksOnASingleLine: Never
 AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false

@@ -7,7 +7,7 @@ int main() {
     uint64_t result = 0;
     int shift = 0;
     for (uint8_t c : s) {
-        if ((c & (1 << 7)) > 0) {
+        if ((c & (1 << 7)) > 0) {  //
             c ^= 1 << 7;
         }
         result += static_cast<uint64_t>(c) << shift;

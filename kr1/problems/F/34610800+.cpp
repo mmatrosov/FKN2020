@@ -13,7 +13,7 @@ int main() {
     std::vector<std::string> words(m);
     for (std::string& word : words)
         std::cin >> word;
-    std::deque<std::string> ngramm;
+    std::deque<std::string> ngramm;  //
     for (int i = 0; i < n; i++)
         ngramm.push_back(words[i]);
     std::map<std::deque<std::string>, int> frequency;
