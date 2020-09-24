@@ -1,3 +1,5 @@
+http://wiki.cs.hse.ru/Основы_и_методология_программирования_на_ПМИ_2020/2021_(пилотный_поток)
+
 ## Требования
 
 - isupper(), islower() etc.
@@ -12,18 +14,19 @@
 
 - лучше получать ответ в явном виде
 - IIFE на примере B-34059851-gcc_docker2-OK+
-- задача О: find_if, not_fn
+- задача [О1](https://contest.yandex.ru/contest/19571/problems/O/): find_if, not_fn
 - std::hypot
-- fabs
 - long double
 
 ## Темы на разобрать
 
+- std::make_reverse_iterator + std::merge для I3
+- template code deduplication
+- managed vs unmanaged vs interpreted
 - Сложность добавления N элементов в вектор
+- двусвязный список
 - r-value refs
 - const-ness
-- managed vs unmanaged
-- template code deduplication
 - Задача n-граммы
  
 ## Разобрали
@@ -41,6 +44,6 @@
 - ранний выход
 - binary literals 0b0011'1111;
 - std::countl_one()
-- switch для задачи 1B
+- switch для задачи B1
 - 'a', 'z' - коды, а не числа. пример с сортировкой 'a', 'b', 'A'. индексы и итерирование
 - std::vector<bool>, iteration example
