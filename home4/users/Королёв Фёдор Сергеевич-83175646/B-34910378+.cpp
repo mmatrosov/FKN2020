@@ -15,10 +15,10 @@ int my_gcd(int a, int b) {
 }
 
 class Rational {
- private:
+  private:
     int p, q;
 
- public:
+  public:
     Rational(int _p = 0, int _q = 1) {
         p = _p;
         q = _q;
@@ -39,7 +39,7 @@ class Rational {
     }
 
     inline bool operator==(const Rational& a) {
-        return (a.numerator() == p && a.denominator() == q);
+        return (a.numerator() == p && a.denominator() == q);  //
     }
 
     inline bool operator!=(const Rational& a) {
@@ -53,7 +53,7 @@ class Rational {
     }
 
     Rational operator+(const Rational& a) {
-        Rational res = Rational(p * a.denominator() + q * a.numerator(), a.denominator() * q);
+        Rational res = Rational(p * a.denominator() + q * a.numerator(), a.denominator() * q);  //
         return res;
     }
 
@@ -94,7 +94,7 @@ class Rational {
 
     Rational operator+() {
         Rational res = Rational(p, q);
-        return res;
+        return res;  //
     }
 
     Rational operator-() {

@@ -1,11 +1,11 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
 class Complex {
- private:
+private:
     double r, i;
 
- public:
+public:
     Complex(double _r = 0.0, double _i = 0.0) {
         r = _r;
         i = _i;
@@ -20,7 +20,7 @@ class Complex {
     }
 
     inline bool operator==(const Complex& z) const {
-        return ((r == z.Re()) && (i == z.Im()));
+        return ((r == z.Re()) && (i == z.Im()));  //
     }
 
     inline bool operator!=(const Complex& z) const {
@@ -64,7 +64,7 @@ class Complex {
     }
 
     Complex operator*(const Complex& z) const {
-        double nr = r * z.Re() - i * z.Im(), ni = r * z.Im() + i * z.Re();
+        double nr = r * z.Re() - i * z.Im(), ni = r * z.Im() + i * z.Re();  //
         Complex res = Complex(nr, ni);
         return res;
     }

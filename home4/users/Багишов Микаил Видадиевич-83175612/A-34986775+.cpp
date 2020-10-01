@@ -4,7 +4,7 @@ class Complex {
     double re;
     double im;
 
-   public:
+  public:
     // constructors
 
     explicit Complex(double _re) : re(_re), im(0) {
@@ -112,7 +112,7 @@ class Complex {
 
     // functions
     double Abs() const {
-        return std::hypot(re, im);
+        return std::hypot(re, im);  //
     }
 
     Complex Inverse() const {

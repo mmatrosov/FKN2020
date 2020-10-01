@@ -9,7 +9,7 @@ class Complex {
         a = a0, b = 0;
     }
 
-    Complex(double a0, double b0) {
+    Complex(double a0, double b0) {  //
         a = a0, b = b0;
     }
 
@@ -71,7 +71,7 @@ class Complex {
         return Complex(a * k, b * k);
     }
 
-    Complex operator/(const Complex &other) const {
+    Complex operator/(const Complex &other) const {  //
         Complex ans = (*this) * Complex(other.a, -other.b);
         double mod = other.Re() * other.Re() + other.Im() * other.Im();
         ans.a /= mod, ans.b /= mod;
