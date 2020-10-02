@@ -14,15 +14,10 @@ http://wiki.cs.hse.ru/Основы_и_методология_программи�
 
 - лучше получать ответ в явном виде
 - IIFE на примере B-34059851-gcc_docker2-OK+
-- задача [О1](https://contest.yandex.ru/contest/19571/problems/O/): find_if, not_fn
-- std::hypot
 - long double
 
 ## Темы на разобрать
 
-- std::make_reverse_iterator + std::merge для I3
-- template code deduplication
-- managed vs unmanaged vs interpreted
 - двусвязный список
 - r-value refs
 - const-ness
@@ -30,6 +25,14 @@ http://wiki.cs.hse.ru/Основы_и_методология_программи�
  
 ## Разобрали
 
+- explicit constructors
+- list of initialization
+- default member initialization
+- std::make_reverse_iterator + std::merge для I3
+- template code deduplication: explicit function/variable template specialization, constexpr if, function overloading, tag dispatching, typeid comparison (bad)
+- managed vs unmanaged vs interpreted
+- задача [О1](https://contest.yandex.ru/contest/19571/problems/O/): find_if, not_fn
+- std::hypot
 - signed vs. unsigned, ssize()
 - string = string + char, string = move(string) + char, 
 - в каком случае сравнение на == строк представленных как char* будет работать (пример из жизни)
