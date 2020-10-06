@@ -12,6 +12,9 @@ http://wiki.cs.hse.ru/Основы_и_методология_программи�
 
 ## По посылкам 
 
+- `const_cast` для устранения дублирования кода в const/non-const перегрузках (см. задачу [Deque](https://contest.yandex.ru/contest/19568/problems/C/))
+- `count()` vs. `operator[]` vs. `find()` for containers
+- `std::search()` for [G. Count subsegments](https://contest.yandex.ru/contest/19568/problems/G/)
 - лучше получать ответ в явном виде
 - IIFE на примере B-34059851-gcc_docker2-OK+
 - long double

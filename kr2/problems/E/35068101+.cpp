@@ -10,7 +10,7 @@ public:
     }
 
     void decreaseNumberOf(int id) {
-        if (data[id])
+        if (data[id])  //
             --data[id];
     }
 

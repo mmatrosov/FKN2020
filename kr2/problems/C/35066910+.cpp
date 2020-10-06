@@ -1,6 +1,6 @@
 #include <cstddef>
-#include <vector>
 #include <stdexcept>
+#include <vector>
 
 template <typename T>
 class Deque {
@@ -33,7 +33,7 @@ public:
     }
 
     T& operator[](size_t i) {
-        return const_cast<T&>(const_cast<Deque const&>(*this)[i]);
+        return const_cast<T&>(const_cast<Deque const&>(*this)[i]);  //
     }
 
     const T& At(size_t i) const {

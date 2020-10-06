@@ -1,4 +1,4 @@
-#include<unordered_map>
+#include <unordered_map>
 
 class Counter {
 private:
@@ -16,7 +16,7 @@ public:
     }
 
     size_t getNumberOf(int id) const {
-        if (data.count(id)) {
+        if (data.count(id)) {  //
             return data.at(id);
         }
         return 0;

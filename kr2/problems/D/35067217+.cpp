@@ -2,7 +2,7 @@
 
 template <typename Key, typename Value>
 bool KeyValueStorage<Key, Value>::find(Key const& key, Value* const value) const {
-    if (data.count(key) == 0) {
+    if (data.count(key) == 0) {  //
         return false;
     }
     if (value != nullptr) {
