@@ -8,9 +8,9 @@ std::optional<Result> DoWithRetry(std::function<Result()> func, int retryCount, 
     for (int attempt = 0; attempt <= retryCount; ++attempt) {
         try {
             Result res = func();
-            return {res};
+            return {res};  //
         } catch (Exception const& exc) {
-            if (attempt == retryCount) {
+            if (attempt == retryCount) {  //
                 if (throwLast) {
                     throw;
                 } else {

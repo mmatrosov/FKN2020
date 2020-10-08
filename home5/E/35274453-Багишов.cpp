@@ -4,7 +4,7 @@ public:
     virtual double Integrate(F const& func, double begin, double end, int parts) const = 0;
 };
 
-IntegrationMethod<int>* fff1;
+IntegrationMethod<int>* fff1;  //?
 
 template <class F>
 class RectangleRule : public IntegrationMethod<F> {

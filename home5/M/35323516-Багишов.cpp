@@ -12,7 +12,7 @@ int main() {
     std::map<std::string, int> login_stats;
     std::string line;
     while (std::getline(std::cin, line)) {
-        Query* q = parse_query(line.c_str());
+        Query* q = parse_query(line.c_str());  //
 
         if (q->action == ACTION_COMMIT) {
             login_stats[q->sender_login]++;

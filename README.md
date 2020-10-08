@@ -15,12 +15,16 @@ http://wiki.cs.hse.ru/Основы_и_методология_программи�
 - `const_cast` для устранения дублирования кода в const/non-const перегрузках (см. задачу [Deque](https://contest.yandex.ru/contest/19568/problems/C/))
 - `count()` vs. `operator[]` vs. `find()` for containers
 - `std::search()` for [G. Count subsegments](https://contest.yandex.ru/contest/19568/problems/G/)
+- "выделить в хипе и на стеке" против "динамически и автоматически"
+- mixing of static and dynamic polymorphism (ex. E. Интеграл)
+- copy+move parameters in constructors
 - лучше получать ответ в явном виде
 - IIFE на примере B-34059851-gcc_docker2-OK+
 - long double
 
 ## Темы на разобрать
 
+- Задача ["Дерево выражений"](https://www.coursera.org/learn/c-plus-plus-brown/programming/J9df7/dierievo-vyrazhienii) из поясов ([решение](https://github.com/yandexdataschool/onlinecpp/blob/master/grader/grading-files/smart_pointers/expression/solutions/correct.cpp))
 - двусвязный список
 - r-value refs
 - const-ness

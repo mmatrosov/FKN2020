@@ -4,7 +4,7 @@
 #include "writer.h"
 
 class BufferedWriter : public Writer {
-    char* mBuf;
+    char* mBuf;  //
     size_t filled;
     size_t capacity;
 
@@ -19,7 +19,7 @@ public:
     }
 
     void Write(char const* data, size_t len) override {
-        while (len > 0) {
+        while (len > 0) {  //
             size_t chunk_size = std::min(capacity - filled, len);
             if (chunk_size == 0) {
                 Flush();

@@ -21,7 +21,7 @@ public:
         try {
             score = mFast.classify(object);
         } catch (TooHardObjectException const&) {
-            if (!mMain.has_value()) {
+            if (!mMain.has_value()) {  //
                 mMain = MainClassifier(std::move(mMainSeed));
             }
             score = mMain->classify(object);
