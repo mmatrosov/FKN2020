@@ -12,10 +12,6 @@ http://wiki.cs.hse.ru/Основы_и_методология_программи�
 
 ## По посылкам 
 
-- `const_cast` для устранения дублирования кода в const/non-const перегрузках (см. задачу [Deque](https://contest.yandex.ru/contest/19568/problems/C/))
-- `count()` vs. `operator[]` vs. `find()` for containers
-- `std::search()` for [G. Count subsegments](https://contest.yandex.ru/contest/19568/problems/G/)
-- "выделить в хипе и на стеке" против "динамически и автоматически"
 - mixing of static and dynamic polymorphism (ex. E. Интеграл)
 - copy+move parameters in constructors
 - лучше получать ответ в явном виде
@@ -32,6 +28,12 @@ http://wiki.cs.hse.ru/Основы_и_методология_программи�
  
 ## Разобрали
 
+- `const_cast` для устранения дублирования кода в const/non-const перегрузках (см. задачу [Deque](https://contest.yandex.ru/contest/19568/problems/C/))
+- const pointers vs. pointers to const, const references vs. references to const
+- `count()` vs. `operator[]` vs. `find()` for containers
+- `std::search()` for [G. Count subsegments](https://contest.yandex.ru/contest/19568/problems/G/)
+- "выделить в хипе и на стеке" против "динамически и автоматически"
+- разные способы представления матрицы: динамический массив динамических массивов, один динамический массив, один автоматический массив
 - explicit constructors
 - list of initialization
 - default member initialization
