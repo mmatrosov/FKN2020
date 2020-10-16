@@ -10,22 +10,20 @@ http://wiki.cs.hse.ru/Основы_и_методология_программи�
 - clang-format
 - без транслита
 
-## По посылкам 
-
-- mixing of static and dynamic polymorphism (ex. E. Интеграл)
-- copy+move parameters in constructors
-- лучше получать ответ в явном виде
-- IIFE на примере B-34059851-gcc_docker2-OK+
-- long double
-
 ## Темы на разобрать
 
-- Задача ["Дерево выражений"](https://www.coursera.org/learn/c-plus-plus-brown/programming/J9df7/dierievo-vyrazhienii) из поясов ([решение](https://github.com/yandexdataschool/onlinecpp/blob/master/grader/grading-files/smart_pointers/expression/solutions/correct.cpp))
-- двусвязный список
+- mixing of static and dynamic polymorphism (ex. E. Интеграл)
+- Задача ["Дерево выражений"](https://www.coursera.org/learn/c-plus-plus-brown/programming/J9df7/dierievo-vyrazhienii) из поясов ([решение](https://github.com/yandexdataschool/onlinecpp/blob/master/grader/grading-files/smart_pointers/expression/solutions/correct.cpp)). Она же задача [J. Выражение](https://contest.yandex.ru/contest/19576/problems/J/).
+  - Иерархия классов
+  - Не следует пользоваться `dynamic_cast`. А если пользоваться - то только к интерфейсам.
+- range-based for - разные типы для начала и конца, по задаче [K. Итератор по контейнеру контейнеров](https://contest.yandex.ru/contest/19576/problems/K/)
+- полезные онлайн ресурсы
+  - https://gcc.godbolt.org/
+  - https://wandbox.org/
+  - https://quick-bench.com/
+- copy+move parameters in constructors
 - r-value refs
-- const-ness
-- Задача n-граммы
- 
+
 ## Разобрали
 
 - `const_cast` для устранения дублирования кода в const/non-const перегрузках (см. задачу [Deque](https://contest.yandex.ru/contest/19568/problems/C/))
